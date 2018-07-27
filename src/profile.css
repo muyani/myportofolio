@@ -1,0 +1,24 @@
+.backgroundPic {
+    background-image: url('/assets/mycity.jpg');
+    background-attachment:fixed;
+    background-size: 100%;
+  
+}
+.minHeight {
+    min-height:650px;
+    text-align: center;
+    
+}
+.autoMargin{
+    margin:auto;
+ 
+}
+.transparent{
+    background-color: rgba(22, 26, 22, 0.9);
+
+
+}
+.alignMargin{
+    margin:20;
+    margin:auto;
+}
