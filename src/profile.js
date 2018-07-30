@@ -4,6 +4,7 @@ import './profile.css';
 import Role from './roleAnimation';
 import Skills from './skills';
 import Education from './education';
+import Portofolio from './portofolio.js';
 
 class Profile extends Component{
     state={
@@ -19,7 +20,7 @@ class Profile extends Component{
                      <br/>
                      <br/>
                      <Header color={color} as='h1'>Muyani Letina</Header>
-                 <Image src="./assets/profilephoto.jpg" size="small" spaced centered circular/>
+                 <Image src="/assets/profilephoto.jpg" size="small" spaced centered circular/>
                  <Divider horizontal>Expertise</Divider>
                  <Grid stackable columns={7} divided>
                      <Grid.Row>
@@ -52,25 +53,48 @@ class Profile extends Component{
                  
             
                 
-                 </div>
-                
-                 <Segment fluid secondary>
+                 
                  <Divider horizontal>Professional Profile</Divider>
-                <span className="alignMargin"><em><strong> I am a professional technology enthusiast who is keen on delivering a better web
+                <Segment compact>
+                 
+                <div className="alignMargin"><em><strong> I am a professional technology enthusiast who is keen on delivering a better web
 experience universally to any human being using the web today. I am young,
 adventurous and ambitious enough to think we are barely one percent of where we
 are supposed to be and I dream of being part of making it 100 eventually.
 I am looking for an equally ambitious company/team to work with in delivering the
-dream one fireball after another. I am looking forward to your contact.</strong></em></span>
+dream one fireball after another. I am looking forward to your contact.</strong></em></div>
+</Segment>
+</div>
 
 
                    
-                 </Segment>
-                 
+                
+                 <div className="bg1">
+                </div>
                 </Container>
                 <Divider horizontal > Skills & Competencies</Divider>
                 <Skills/>
+                <Portofolio/>
+                <Divider horizontal>Testimonials</Divider>
+                <div className="bg">
+                    <div className="inbg">
+         
+                    </div>
+                  
+
+
+                </div>
                 <Education/>
+                <Divider horizontal>Hobbies & Interests</Divider>
+                <div className="bg">
+                    <div className="inbg">
+         
+                    </div>
+                  
+
+
+                </div>
+               
                 </Container>
         )
     }

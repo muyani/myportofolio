@@ -18,7 +18,26 @@
 
 
 }
+.bg{
+    
+    background-image: url('/assets/testimonials.jpeg');
+    min-height:200px;
+    background-attachment:fixed;
+    background-size: 100%;
+    
+}
+.bg1{
+    background-image: url('/assets/testimonials.jpeg');
+    min-height:10px;
+    background-attachment:fixed;
+    background-size: 100%;
+    
+}
+.inbg{
+    background-color: rgba(0, 0, 0, 0.853);
+    min-height:200px;
+}
+
 .alignMargin{
-    margin:20;
-    margin:auto;
+    margin:0px 20px 0px 20px;
 }

@@ -7,7 +7,7 @@ render(){
     return (
 <Card.Group stackable itemsPerRow={3} centered>
         <Card color="orange">
-    <Image src='./assets/react.png' />
+    <Image src='/assets/react.png' />
     <Card.Content>
       <Card.Header>React Developer</Card.Header>
       <Card.Meta>Started in Jul 2017</Card.Meta>
@@ -21,7 +21,7 @@ render(){
     </Card.Content>
   </Card>
         <Card color="orange">
-    <Image src='./assets/pwas.jpg' fluid />
+    <Image src='/assets/pwas.png' fluid />
     <Card.Content>
       <Card.Header>Service Worker/Caching Master</Card.Header>
       <Card.Meta>Started in Feb 2018</Card.Meta>
@@ -35,7 +35,7 @@ render(){
     </Card.Content>
   </Card>
         <Card color="orange">
-    <Image src='./assets/semantic.png' fluid />
+    <Image src='/assets/semantic.png' />
     <Card.Content>
       <Card.Header>Semantic UI Developer</Card.Header>
       <Card.Meta>Started in Jul 2017</Card.Meta>
